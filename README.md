@@ -4,7 +4,7 @@ More to come here. Instructions on installing and configuring
 
 # Dependencies
 
-## These should be installed globally on your machine, to be used across all projects
+These should be installed globally on your machine, to be used across all projects
 
 `npm install -g stylelint-scss`
 
@@ -22,7 +22,7 @@ More to come here. Instructions on installing and configuring
 
 # Editor Plugins/Tooling
 
-## VSCODE Plugins
+## VSCode Plugins
 
 https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
 
@@ -30,7 +30,7 @@ https://github.com/prettier/prettier-vscode
 
 https://marketplace.visualstudio.com/items?itemName=shinnn.stylelint
 
-##Sublime Plugins
+## Sublime Plugins
 
 https://github.com/SublimeLinter/SublimeLinter-eslint
 
