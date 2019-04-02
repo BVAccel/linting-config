@@ -1,6 +1,4 @@
-Baseline configs that should be used across all BVA projects
-
-More to come here. Instructions on installing and configuring
+Baseline configs that should be used across all BVA projects. More to come here. Instructions on installing and configuring
 
 # Dependencies
 
