@@ -1,42 +1,50 @@
-Baseline configs that should be used across all BVA projects. More to come here. Instructions on installing and configuring
+# BVA Linting Configuration
 
-# Dependencies
+Baseline configs that should be used across all BVA projects. More to come here. Instructions on installing and configuring. 
 
-These should be installed globally on your machine, to be used across all projects
+## Configurations
 
-`npm install -D stylelint-scss`
+Setup default configurations for all your projects by copying over `.eslintrc`, `.eslintignore`, `.prettierrc` and `.stylelintrc` in `/Users/your-username` directory. Local configuration files will take precedence over the global configs.
 
-`npm install -D stylelint-order`
+## Dependencies
 
-`npm install -D eslint-config-airbnb`
+These should be installed globally on your machine, to be used across all projects:
 
-`npm install -D eslint-plugin-prettier`
 
-`npm install -D eslint-config-prettier`
+```
+npm i -g stylelint
+npm i -g eslint
+npm i -g prettier
+npm i -g -D stylelint-scss
+npm i -g -D stylelint-order
+npm i -g -D eslint-config-airbnb
+npm i -g -D eslint-config-prettier
+npm i -g -D eslint-config-airbnb
+npm i -g -D eslint-config-airbnb-base
+npm i -g -D eslint-plugin-prettier
+npm i -g -D eslint-plugin-import 
+npm i -g -D eslint-plugin-jsx-a11y 
+npm i -g -D eslint-plugin-react 
+npm i -g -D eslint-plugin-prettier 
+```
 
-`npm install -g eslint`
+Single line installation:
 
-`npm install -g stylelint`
+```
+npm i -g stylelint eslint prettier && npm i -g -D stylelint-scss stylelint-order eslint-config-airbnb eslint-config-prettier eslint-config-airbnb eslint-config-airbnb-base eslint-plugin-prettier eslint-plugin-import  eslint-plugin-jsx-a11y  eslint-plugin-react  eslint-plugin-prettier 
+```
 
-### Single line install commands
+## Text Editor Plugins
 
-`npm install -D stylelint-scss stylelint-order eslint-config-airbnb eslint-plugin-prettier eslint-config-prettier`
-`npm install -g eslint stylelint`
+### VSCode
 
-# Editor Plugins/Tooling
+* [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+* [Prettier](https://github.com/prettier/prettier-vscode)
+* [Stylelint](https://marketplace.visualstudio.com/items?itemName=shinnn.stylelint)
 
-## VSCode Plugins
+### Sublime
 
-https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
-
-https://github.com/prettier/prettier-vscode
-
-https://marketplace.visualstudio.com/items?itemName=shinnn.stylelint
-
-## Sublime Plugins
-
-https://github.com/SublimeLinter/SublimeLinter-eslint
-
-https://packagecontrol.io/packages/JsPrettier
-
-https://github.com/SublimeLinter/SublimeLinter-stylelint
+* [ESLint](https://github.com/SublimeLinter/SublimeLinter-eslint)
+* [Prettier](https://packagecontrol.io/packages/JsPrettier
+)
+* [Stylelint](https://github.com/SublimeLinter/SublimeLinter-stylelint)
