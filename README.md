@@ -34,6 +34,10 @@ Single line installation:
 npm i -g stylelint eslint prettier && npm i -g -D stylelint-scss stylelint-order eslint-config-airbnb eslint-config-prettier eslint-config-airbnb eslint-config-airbnb-base eslint-plugin-prettier eslint-plugin-import  eslint-plugin-jsx-a11y  eslint-plugin-react  eslint-plugin-prettier 
 ```
 
+```
+yarn global add stylelint eslint prettier && yarn global add -D stylelint-scss stylelint-order eslint-config-airbnb eslint-config-prettier eslint-config-airbnb eslint-config-airbnb-base eslint-plugin-prettier eslint-plugin-import  eslint-plugin-jsx-a11y  eslint-plugin-react  eslint-plugin-prettier
+```
+
 ## Text Editor Plugins
 
 ### VSCode
